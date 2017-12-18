@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Swiper在PC端的全屏页面效果展示</title>
+  <meta name="description" >
+  <link rel="stylesheet" href="css/idangerous.swiper.css">
+  <link rel="stylesheet" href="animate/animate.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+</head>
+<body>
+
+    <div class="nav">
+        <div class="navtxt">
+            <ul>
+                <li>Home Page</li>
+                <li>Personal tailor</li>
+                <li>business suit</li>
+                <li>Haute Couture</li>
+            </ul>
+        </div>
+        <img src="img/join1.png" alt="" onmousemove="doover()" id="joinout">
+        <div id="joinimg" onmouseout="doout()">
+            <img src="img/join.png" alt="">
+            <span id="imgtxt"><a href="sgin.html">Sign in/</a><a href="register.html">join</a></span>
+        </div>
+    </div>
+
+    <div class="innav">
+       <img src="img/logo2.png" alt="">
+    </div>
+
+    <div class="swiper-container">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide slide1">
+            <a href="#" class="logo"><img src="img/logo.png"></a>
+            <div style="position: absolute;left: 24%;top:28%; z-index:10;">
+            </div>
+        </div>
+        <div class="swiper-slide slide2">
+            <div style="position: absolute;left: 13.5%;top:26.5%; z-index:10;">
+                    <div class="fs16 white mt20 ml10 ani ani2-2 s2txt">
+                        <p>最完善的UPC个性定制系统和销售服务体系</p>
+                        <p class="mt20 mb20 line"></p>
+                        <p>销售行为可回溯<span class="dividing-line"></span>沟通永久可查</p>
+                    </div>
+                </div>
+        
+        
+        </div>
+        <div class="swiper-slide slide3">
+                <div style="position: absolute;left: 28%;top:25%;z-index:10;">
+                    <div class="fs16 white mt20 ml10 ani ani3-2 s3txt">
+                        <p>为客户提供实地考察、调研、提供设计方案</p>
+                        <p class="line mt20 mb20"></p>
+                        <p>电话语音记录<span class="dividing-line"></span>在线交互记录<span class="dividing-line"></span>随时随地查询、导出、转存</p>
+                    </div>
+                </div>
+        </div>
+        <div class="swiper-slide slide4">
+                <div style="position: absolute;right: 16%;top:22%; z-index:10; text-align:right;">
+                    <div class="fs16 white mt15 mr35 ani ani4-2 s4txt" style="margin-right:35px;">
+                        <p>西装是件复杂的事，很多问题都需要耐心解答，有记录，有依据，服务好不好，自己说了算！</p>
+                        <p class="line mt20 mb20" style="display: inline-block;vertical-align: middle;"></p>
+                        <p>服务过程监督<span class="dividing-line"></span>投保体验评价有依据</p>
+                    </div>
+                </div>
+        </div>
+        <div class="swiper-slide slide5">
+                <div style="position: absolute;left: 13%;top:19%; z-index:10;">
+                    <div class="fs16 white ml10 ani ani5-2 s5txt">
+                        <p class="mt20">2007年7月，第一次在互联网上买了件西装；</p>
+                        <p class="mt20">2008年1月，反复咨询沟通后给老公买了件西装；</p>
+                        <p class="mt20">2009年3月，终于把自己的西装也规划好了；</p>
+                        <p class="pt10">......</p>
+                    </div>
+                </div>
+        </div>
+        <div class="swiper-slide slide6">
+                <div style=" position:absolute; top:50%; width:100%;text-align:center;margin-top: -200px; z-index:10;">
+                    <div class="ani ani6-1"><img width="259" height="29" src="img/6-1-title.png" alt="客户服务记录公开"></div>
+                    <div class="ani ani6-2 mt40"><img width="552" height="74" src="img/6-2-title.png" alt="把主动权交回我"></div>
+                </div>  
+        </div>
+      </div>
+    </div>
+    <div class="pagination"></div>
+
+  <script src="js/jquery-1.10.1.min.js"></script>
+  <script src="js/idangerous.swiper.min.js"></script>
+  <script src="animate/swiper.animate1.0.2.min.js"></script>
+
+  <script src="js/pcpage.js"></script>
+
+  <script>
+      function doover(){
+        document.getElementById("joinimg").style.display="block"
+        document.getElementById("joinout").style.display="none"
+      }
+
+      function doout(){
+        document.getElementById("joinimg").style.display="block"
+        document.getElementById("imgtxt").style.display="block"
+      }
+
+  </script>
+</body>
+</html>

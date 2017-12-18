@@ -1,0 +1,195 @@
+body{
+	background-image:url('../img/bg4.jpg');
+}
+.bg{
+	width: 603px;
+	height: 803px;
+	background:black;
+	opacity:1;
+	border-radius: 10px;
+	position:absolute;
+	top:100px;
+	right:200px;
+}
+/*  .bg2{
+	width: 600px;
+	height: 600px;
+	border-radius: 10px;
+	position:absolute;
+	top:200px;
+	right:130px;
+	border:3px solid tomato  */
+	.bg > span{
+		color:white;
+		font-size:25px;
+		font-family:华文细黑;
+		font-weight:800;
+		position:absolute;
+		top:30px;
+		left:50px;
+		border-left:3px solid tomato;
+		padding-left:15px;
+		text-shadow:0px 0px 5px white;
+	}
+
+	form{
+		margin-top:150px;
+		margin-left: 150px;
+	}
+/* 
+	#username{
+		width: 250px;
+		height: 40px;
+		background:red;
+
+	} */
+	#username input{
+		outline:none;
+		border:0px;
+		line-height:35px;
+		border-radius:0px;
+		border:3px solid tomato;
+		vertical-align:top;
+	}
+	
+	i{
+		color:white;
+		font-size:40px !important;
+		margin-right:40px;
+		margin-left:-30px;
+	}
+
+	#password input{
+		outline:none;
+		border:0px;
+		line-height:35px;
+		border-radius:0px;
+		border:3px solid tomato;
+		vertical-align:top;
+	}
+
+	#password{
+		margin-top:30px;
+	}
+
+	#username p{
+		color:white;
+		font-family:华文细黑;
+		margin-left:60px;
+	}
+
+	#password p{
+		color:white;
+		font-family:华文细黑;
+		margin-left:60px;
+	}
+
+	#code input{
+		outline:none;
+		border:0px;
+		line-height:35px;
+		border-radius:0px;
+		border:3px solid tomato;
+		vertical-align:top;
+		margin-top:20px;
+		margin-left:-32px;
+	}
+
+	#code p{
+		color:white;
+		font-family:华文细黑;
+		margin-left:-30px;
+	}
+
+	#sgin{
+		color:white;
+		background:tomato;
+		width: 400px;
+		height:45px;
+		border:0px;
+		margin-top:45px;
+		margin-left:-40px;
+		font-size:20px;
+		letter-spacing:3px;
+		box-shadow:0px 0px 40px tomato;
+	}
+
+	#codenum{
+		width: 140px;
+		height: 43px;
+		background:tomato;
+		margin-left:108px;
+		margin-top:-55px;
+	}
+
+	#code{
+		margin-left:90px;
+
+	}
+
+	#codenum p{
+		color:white;
+		margin-left:40px;
+		line-height:43px;
+		font-size:10px;
+		letter-spacing:1px;
+		cursor:pointer;
+	}
+
+	#code i{
+		margin-left:-120px;
+		/* margin-top:30px; */
+		position:absolute;
+		top:270px;
+		/* left:0px; */
+
+	}
+
+	#password2 input{
+		outline:none;
+		border:0px;
+		line-height:35px;
+		border-radius:0px;
+		border:3px solid tomato;
+		vertical-align:top;
+	}
+
+	#password2{
+		margin-top:40px;
+	}
+	#password2 p{
+		color:white;
+		font-family:华文细黑;
+		margin-left:60px;
+	}
+	#codebg{
+		width: 280px;
+		height: 43px;
+		background:white;
+		margin-left:-32px;
+	}
+	#codeimg{
+		width:140px;
+		height: 43px;
+		background:tomato;
+		margin-top:0px;
+		margin-left:0px;
+		position:absolute;
+
+	}
+	#codeimg p{
+		color:white;
+		line-height:40px;
+		margin:0px 50px;
+	}
+
+	#codeimg span{
+		color:tomato;
+		font-family:"华文细黑";
+		margin-left:180px;
+		cursor:pointer;
+		position:absolute;
+		top:12px;
+	}
+
+	
